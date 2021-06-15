@@ -4,5 +4,5 @@ import Layout from "./Components/Layout";
 
 new Vue({
   el: "#app",
-  render: h => h(App)
+  render: h => h(Layout)
 });
