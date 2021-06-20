@@ -1,10 +1,15 @@
 <template>
   <div id="grid">
-    <h2>Eu sou um titulo</h2>
+    <ServerList />
   </div>
 </template>
 <script>
-export default {};
+import ServerList from './ServerList';
+export default {
+  components: {
+    ServerList
+  }
+};
 </script>
 
 <style scoped>
