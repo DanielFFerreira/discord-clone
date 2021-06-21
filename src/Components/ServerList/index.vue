@@ -4,8 +4,11 @@
   </div>
 </template>
 <script>
+import ServerButton from './ServerButton.vue'
 export default {
-
+  components: {
+    ServerButton
+  }
 }
 </script>
 <style scoped lang="scss">
