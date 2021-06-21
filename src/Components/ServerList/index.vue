@@ -9,8 +9,7 @@
     <ServerButton :mentions="1" hasNotification />
     <ServerButton :mentions="8"  />
     <ServerButton :mentions="10" hasNotification />
-    <ServerButton />
-    <ServerButton />
+    <ServerButton v-for="servers in 18" :key="servers.id" />
     <!-- <ServerButton v-for="servers in 18" v-if="servers.id" /> -->
     <ServerButton />
 
