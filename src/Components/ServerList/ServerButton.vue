@@ -74,7 +74,7 @@ export default {
     &:active,
     &:hover {
       border-radius: 16px;
-      background: var(--rocketseat);
+      background: var(--discord);
     }
   }
 
