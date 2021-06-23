@@ -3,17 +3,20 @@
     <ServerList />
     <ServerName />
     <ChannelList />
+    <UserInfo />
   </div>
 </template>
 <script>
 import ServerList from './ServerList';
 import ServerName from './ServerName';
-import ChannelList from './ChannelList'
+import ChannelList from './ChannelList';
+import UserInfo from './UserInfo'
 export default {
   components: {
     ServerList,
     ServerName,
-    ChannelList
+    ChannelList,
+    UserInfo
   }
 };
 </script>
