@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import ExpandIcon from "vue-material-design-icons/ChevronDown";
+import ExpandIcon from "vue-material-design-icons/ChevronDown.vue";
 export default {
   components: {
     ExpandIcon
