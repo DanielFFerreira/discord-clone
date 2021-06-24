@@ -2,6 +2,7 @@
   <div id="grid">
     <ServerList />
     <ServerName />
+    <ChannelInfo />
     <ChannelList />
     <UserInfo />
   </div>
@@ -10,13 +11,15 @@
 import ServerList from './ServerList';
 import ServerName from './ServerName';
 import ChannelList from './ChannelList';
-import UserInfo from './UserInfo'
+import UserInfo from './UserInfo';
+import ChannelInfo from './ChannelInfo';
 export default {
   components: {
     ServerList,
     ServerName,
     ChannelList,
-    UserInfo
+    UserInfo,
+    ChannelInfo
   }
 };
 </script>
