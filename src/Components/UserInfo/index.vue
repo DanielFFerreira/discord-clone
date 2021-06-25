@@ -3,6 +3,7 @@
     <div class="profile">
       <div class="avatar">
         <img src="https://avatars.githubusercontent.com/u/50724196?v=4" alt="">
+        <div class="status"></div>
       </div>
       <div class="userdata">
         <strong>Daniel Ferreira</strong><span>#2654</span>
@@ -52,6 +53,19 @@ export default {
       width: 37px;
       height: 37px;
       border-radius: 50%;
+    }
+    .status {
+      background-color: var(--online);
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: solid 3px var(--quaternary);
+      font-size: 13px;
+      font-weight: bold;
+      color: var(--white);
+      position: relative;
+      top: -19px;
+      right: -21px;
     }
   }
   .userdata {
