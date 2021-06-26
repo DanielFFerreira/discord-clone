@@ -1,4 +1,13 @@
-# discord-clone
+# Clonando a interface do Discord com Vue, HTML e CSS
+
+### Projeto feito com intuito de praticar HTML e CSS usando components feitos em Vue
+
+### O que aprendi/pratiquei:
+* CSS Grid
+* Sass
+* Renderização condicional
+
+![Preview do clone](./src/assets/discord.gif)
 
 > Create discord interface using vue technologies
 
