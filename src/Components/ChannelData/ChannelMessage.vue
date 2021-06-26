@@ -70,7 +70,7 @@ export default {
     }
     .bot {
       margin-left: 9px;
-      background: var(--disvord);
+      background: var(--discord);
       color: var(--white);
       padding: 4px 5px;
       border-radius: 4px;
