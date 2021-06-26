@@ -71,7 +71,7 @@ export default {
   .userdata {
     display: flex;
     flex-direction: column;
-    margin-left: 10 px;
+    margin-left: 10px;
     font-size: 13px;
 
     strong {
