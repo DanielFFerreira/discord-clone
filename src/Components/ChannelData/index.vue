@@ -10,6 +10,7 @@
       <ChannelMessage ref="new" author="Daniel Ferreira" date="20/05/2025" isBot hasMention>
         <Mention>Daniel Ferreira</Mention>é um teste de mensagem!
       </ChannelMessage>
+
     </div>
     <div class="inputwrapper">
       <input type="text" placeholder="Conversar em #chat-livre" />
